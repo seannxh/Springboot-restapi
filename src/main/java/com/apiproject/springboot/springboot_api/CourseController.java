@@ -16,8 +16,10 @@ public class CourseController {
     @RequestMapping("/courses")
     public List<Course> retrrieveAllCourses() {
         return Arrays.asList(
-                new Course(1, "Learn Spring REST Api", "Course1"),
-                new Course(2, "Learn Docker", "Course2")
+                new Course(1, "Rob", "Course1"),
+                new Course(2, "Rob", "Course2"),
+                new Course(3, "Learn AWS", "Course3"),
+                new Course(4, "Learn Java", "Course4")
         );
     }
 
