@@ -29,5 +29,5 @@
 
 //How to run the application in a real application like setting
 // mvn clean
-//mvn package
+//mvn package1
 //java -jar ////.jar name located in target
