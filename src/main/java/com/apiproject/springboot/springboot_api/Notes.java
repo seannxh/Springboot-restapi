@@ -1,7 +1,3 @@
-
-
-
-
 //Spring Boot
 
 //Pros
@@ -24,10 +20,22 @@
 //#debug - a lot more information
 //#info
 //#warning - one level above error
-//#error - only error and exception will printed
+//#error - only error and exception will print
 //#off - shuts
 
 //How to run the application in a real application like setting
 // mvn clean
 //mvn package1
 //java -jar ////.jar name located in target
+
+//localhost/actuator
+//It tells you if your bean is autoconfigured
+//I can see all the things I have created and see the things I can do in app prop
+
+//actuator/env
+//endpoint shows all the details about the application environment
+//JVM//TOMCAT
+
+//actuator/metrics
+//http.server.requests
+ //Can see the server statics of the count of request total time it takes
