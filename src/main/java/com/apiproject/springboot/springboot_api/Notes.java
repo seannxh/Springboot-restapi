@@ -15,8 +15,6 @@
 //Different Config for Different Env
 //Monitor - Spring Boot Actuator
 
-import org.springframework.boot.context.properties.ConfigurationProperties;
-
 //@ConfigurationProperties
 //Configuration properties enables to externalize all the tools for my application
 //#When having problems can use this to get more info
@@ -28,3 +26,8 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 //#warning - one level above error
 //#error - only error and exception will printed
 //#off - shuts
+
+//How to run the application in a real application like setting
+// mvn clean
+//mvn package
+//java -jar ////.jar name located in target
